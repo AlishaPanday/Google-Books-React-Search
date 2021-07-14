@@ -1,0 +1,29 @@
+{
+  "name": "google-books-react-search",
+  "version": "1.0.0",
+  "description": "React Google Book search",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlishaPanday/Google-Books-React-Search.git"
+  },
+  "author": "Alisha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlishaPanday/Google-Books-React-Search/issues"
+  },
+  "homepage": "https://github.com/AlishaPanday/Google-Books-React-Search#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "mongoose": "^5.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
